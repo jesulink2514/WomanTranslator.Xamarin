@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WomanTranslator.Mobile"
+             x:Class="WomanTranslator.Mobile.MainPage"
+             BackgroundColor="White">
+  <Grid Margin="10" x:Name="GridContainer" VerticalOptions="FillAndExpand">
+    <StackLayout x:Name="StackContainer" VerticalOptions="FillAndExpand"
+                 Spacing="5">
+      <Image Source="womenlogo.png"
+           HeightRequest="100"
+             HorizontalOptions="Center"
+           Aspect="AspectFit"/>
+      <Label FontAttributes="Bold" FontSize="18"
+             TextColor="#F43994"
+             HorizontalTextAlignment="Center">WomanTranslator</Label>
+      <Label>Ingrese las palabras en el dialecto mujer:</Label>
+      <Entry x:Name="TxtInput" Placeholder="Dialecto mujer..."></Entry>
+    </StackLayout>
+  </Grid>
+</ContentPage>
